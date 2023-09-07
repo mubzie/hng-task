@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Frontend page creation</title>
+  </head>
+  <body>
+    <header class="header">Frontend Page Creation</header>
+    <main class="main">
+      <div class="date-time">
+        <div
+          id="current-day"
+          class="date"
+          data-testid="currentDayOfTheWeek"
+        ></div>
+
+        <div id="current-time" class="time" data-testid="currentUTCTime">
+          Time:
+        </div>
+      </div>
+
+      <div id="image">
+        <img
+          src="slack-image.jpg"
+          alt="mubzie"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+
+      <div id="user-name" data-testid="slackUserName"></div>
+
+      <div id="track" data-testid="myTrack"></div>
+
+      <div id="github-url" data-testid="githubURL">
+        GithubURL:
+        <a
+          href="https://github.com/mubzie/Library-Project/blob/main/src/library.js"
+        >
+          github.com/mubzie</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
