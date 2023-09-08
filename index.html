@@ -9,33 +9,29 @@
   </head>
   <body>
     <main class="main">
-      <div id="user-name" data-testid="slackUserName"></div>
+      <div data-testid="slackUserName" id="user-name"></div>
 
       <div class="image">
         <img
+          data-testid="slackDisplayImage"
           src="slack-image.jpg"
           alt="Mubzie"
-          data-testid="slackDisplayImage"
         />
       </div>
 
       <div class="date-time">
-        <div
-          id="current-day"
-          class="date"
-          data-testid="currentDayOfTheWeek"
-        ></div>
+        <div data-testid="currentDayOfTheWeek" id="current-day"></div>
 
-        <div id="current-time" class="time" data-testid="currentUTCTime">
-          Time:
-        </div>
+        <div data-testid="currentUTCTime" id="current-time">Time:</div>
       </div>
 
-      <div id="track" data-testid="myTrack"></div>
+      <div data-testid="myTrack" id="track"></div>
 
-      <div id="github-url" data-testid="githubURL">
+      <div id="github-url">
         GitHub URL:
-        <a href="https://github.com/mubzie/hng-task"> source code </a>
+        <a data-testid="githubURL" href="https://github.com/mubzie/hng-task">
+          visit source code
+        </a>
       </div>
     </main>
   </body>
