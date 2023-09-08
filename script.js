@@ -22,6 +22,6 @@ const getCurrentTime = () => {
 };
 setInterval(getCurrentTime, 1000);
 
-getUserName.textContent = "Slack Name: mubzie";
+getUserName.textContent = "mubzie";
 
-getTrack.textContent = "Track: Frontend";
+getTrack.textContent = "Frontend Track";
