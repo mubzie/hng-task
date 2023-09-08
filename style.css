@@ -23,7 +23,7 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  margin: 24px 40px;
+  margin: 56px 40px;
 }
 
 .date-time {
@@ -34,7 +34,7 @@ main {
   border-bottom: 1px solid;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .image {
@@ -54,10 +54,10 @@ img {
 
 @media (max-width: 600px) {
   main {
-    margin-top: 40px;
+    margin-top: 72px;
   }
 
   .date-time {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
 }
