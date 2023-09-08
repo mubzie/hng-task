@@ -14,18 +14,18 @@ const daysOfWeek = [
   "Friday",
   "Saturday",
 ];
-getDay.textContent = `Day: ${daysOfWeek[today]}`;
+getDay.textContent = `Current Day of the Week: ${daysOfWeek[today]}`;
 
 // set time
 const getCurrentTime = () => {
   const getHours = new Date();
   const time = getHours.toLocaleTimeString();
-  getTime.textContent = `Time: ${time}`;
+  getTime.textContent = `Current UTC Time: ${time}`;
 };
 setInterval(getCurrentTime, 1000);
 
 // set userName
-getUserName.textContent = "UserName: mubzie";
+getUserName.textContent = "Slack Name: mubzie";
 
 //set track
 getTrack.textContent = "Track: Frontend";
