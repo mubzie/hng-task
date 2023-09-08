@@ -29,6 +29,7 @@ main {
 .date-time {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -48,7 +49,6 @@ img {
 }
 
 /* media query */
-
 @media (max-width: 600px) {
   main {
     margin-top: 72px;
